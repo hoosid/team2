@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f1f1;
+    height: 400vh;
+}
+.parant{
+    background-image: url(file:///C:/Users/hoosi/Downloads/header-bg.jpg);
+    height: 100vh;
+}
+.logo{
+    color: green;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-left: 70px;
+    font-style: italic;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+header ul li{
+    margin-right: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+ a:hover{
+    color: green;}
+.text{
+    text-align: center;
+    margin-top: 220px;
+}
+#text1{
+    color: #fff;
+    font-size: 20px;
+}
+#text2{
+    color: green;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.btn{
+    position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #8b8181;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.4s;
+}
+.btn:hover{
+    color: #fff;
+    background-color: green;
+    font-size: 30px;
+}
+.tout{
+    height: 100vh;
+}
+.textt{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/**/
+.service{
+    margin-top: 30px;
+}
+.itc {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    /*background-color: DodgerBlue;*/
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .boxs1 {
+   /* background-color: #f1f1f1;*/
+    width: 50%;
+    
+    margin: 10px;
+    text-align: center;
+    /*line-height: 75px;*/
+    font-size: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px rgb(165, 146, 146)
+    
+  }
+  .boxs2 {
+    /* background-color: #f1f1f1;*/
+     width: 50%;
+     
+     margin: 10px;
+     text-align: center;
+     /*line-height: 75px;*/
+     font-size: 30px;
+     border-radius: 15px;
+     box-shadow: 5px 10px 18px rgb(165, 146, 146)
+     
+   }
+   .boxs3 {
+    /* background-color: #f1f1f1;*/
+     width: 50%;
+     
+     margin: 10px;
+     text-align: center;
+     /*line-height: 75px;*/
+     font-size: 30px;
+     border-radius: 15px;
+     box-shadow: 5px 10px 18px rgb(165, 146, 146)
+     
+   }
+  .boxs1:hover{
+    width:80%;
+    transition: 0.4s;
+  }
+  .boxs2:hover{
+    width: 80%;
+    transition: 0.4s;
+  }
+  .boxs3:hover{
+    width:80%;
+    transition: 0.4s;
+  }
