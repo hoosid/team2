@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-us {
+    text-align: center;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+body{
+    height: 100vh;
+}
+
+.tout {
+    background-image: url(header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 25px;
+    height: 95vh;
+    background-position: top ;
+}
+.name {
+    text-align: center;
+    margin-left: 27em;
+    margin-right: 30em;
+    border-radius: 10px;
+    height: 43px;
+    width: 36em;
+    /*border: 0px;*/
+    background-color: rgb(188, 201, 202);
+    margin-bottom: 40px;
+}
+.name:hover {
+    background-color: rgb(22, 110, 49);
+    cursor: pointer;
+    transform: scale(120%);
+}
+.email {
+    text-align: center;
+    margin-left: 27em;
+    margin-right: 30em;
+    border-radius: 10px;
+    height: 43px;
+    width: 36em;
+    background-color: rgb(188, 201, 202);
+    border: 0px;
+    margin-bottom: 40px;
+}
+.email:hover {
+    background-color: rgb(22, 110, 49);
+    cursor: pointer;
+    transform: scale(120%);
+}
+.textarea {
+    text-align: center;
+    margin-left: 27em;
+    margin-right: 30em;
+    border-radius: 10px;
+    background-color: rgb(188, 201, 202);
+    border: 0px;
+    margin-bottom: 30px;
+    transition: .4s;
+}
+.textarea:hover {
+    background-color: rgb(22, 110, 49) ;
+    transform: scale(140%);
+}
+.send {
+    text-align: center;
+    margin-left: 42em;
+    margin-right: 43em;
+    height: 45px;
+    background-color: rgb(88, 101, 100);
+    color: white;   
+    border-radius: 10px;
+    width: 75px;
+    border: 0px;
+}  
+.send:hover {
+    background-color: rgb(22, 110, 49);
+    cursor: pointer;
+    transform: scale(120%);
+}
+
+.web-team {
+ color: rgb(22, 110, 49);
+ display: inline-block;
+}
+section {
+  /*  width: 100%;
+    height: 80vh;*/
+   /* margin-top: 3%;*/
+    margin-bottom: 30px;
+    margin-left: 2%;
+}
+
+.boutom{
+    margin-top: 25px;
+   
+}
+footer {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    /*margin-top: 15px;*/
+    height: 30px;
+    
+}
+footer p{
+    line-height: 30px;
+}
