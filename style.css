@@ -5,7 +5,7 @@
 }
 body{
     background-color: #f3f1f1;
-    height: 400vh;
+    height: 100vh;
 }
 .parant{
     background-image: url(header-bg.jpg);
@@ -149,7 +149,8 @@ ul li a{
   .boxs3:hover{
     transform:scale(1.1);
   }
- /*houda*/
+
+  /*houda*/
   *{
     margin: 0;
     padding: 0;
