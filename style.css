@@ -138,12 +138,18 @@ ul li a{
    }
   .boxs1:hover{
     transform:scale(1.1);
+    transition: 0.7s ease;
+    cursor: pointer;
   }
   .boxs2:hover{
     transform:scale(1.1);
+      transition: 0.7s ease;
+    cursor: pointer;
   }
   .boxs3:hover{
     transform:scale(1.1);
+      transition: 0.7s ease;
+    cursor: pointer;
   }
 
   /*houda*/
@@ -185,6 +191,8 @@ ul li a{
     background-color: rgb(22, 110, 49);
     cursor: pointer;
     transform: scale(120%);
+    transition: 0.7s ease;
+   
 }
 .email {
     text-align: center;
@@ -201,6 +209,7 @@ ul li a{
     background-color: rgb(22, 110, 49);
     cursor: pointer;
     transform: scale(120%);
+     transition: 0.7s ease;
 }
 .textarea {
     text-align: center;
@@ -215,6 +224,7 @@ ul li a{
 .textarea:hover {
     background-color: rgb(22, 110, 49) ;
     transform: scale(140%);
+     transition: 0.7s ease;
 }
 .send {
     text-align: center;
@@ -231,6 +241,7 @@ ul li a{
     background-color: rgb(22, 110, 49);
     cursor: pointer;
     transform: scale(120%);
+     transition: 0.7s ease;
 }
 
 .web-team {
