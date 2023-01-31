@@ -2,7 +2,7 @@
     text-align: center;
 }
 body {
-    background-image: url("./C:\Users\hp\Desktop\web team\header-bg.jpg");
+    background-image: url(./C:\Users\hp\Desktop\web team\header-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px;
