@@ -12,100 +12,78 @@ body
 
 /* 1 */
  
-.header
-{
+.parant{
+    background-image: url(file:///C:/Users/hoosi/OneDrive/Bureau/itc2/header-bg.jpg);
+     background-position: 35% 14%;
     height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-     
-
+   
 }
-
- 
-.main
-{
-    height: 15%;
-    display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-      
+.logo{
+    color: green;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-left: 70px;
+    font-style: italic;
 }
- 
-
-
-.list
-{
+header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 40%;
+    
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+header ul li{
+    margin-right: 30px;
+    font-size: 30px;
+    margin-top: 50px;
    
 }
 
-.list a
-{
+ul li a{
     text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
 }
-
-.h-1
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ ul li a:hover{
+    color: green;}
+.text{
+    text-align: center;
+    margin-top: 220px;
 }
-
-.main h1
-{
-    color:  rgb(8, 94, 8);
+#text1{
+    color: #fff;
+    font-size: 20px;
 }
-
-.main p
-{
-    font-size: x-large;
-    color: white;
+#text2{
+    color: green;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: 20px;
 }
-
-
- 
-.main p:hover
-{
-    color: rgb(8, 94, 8);
-    transition: 0.4s ease;
+.btn{
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*-ms-transform: translate(-50%, -50%);*/
+  background-color: rgba(128, 128, 128, 0.712);
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.4s;
 }
-  
-.main-page
-{
-    
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  justify-content: center;
-}
-
-.main-page b
-{
-    font-size: 40px;
-    color: rgb(8, 94, 8);
-    letter-spacing: 5px;
-    
-}
-
-.main-page button
-{
-    padding:1% 2%;
-    cursor: pointer;
-    border: none;
-     border-radius: 5px;
-     background-color: rgba(128, 128, 128, 0.712);
-    
-}
-
-.main-page button:hover
-{
-    background-color: rgb(8, 94, 8);
+.btn:hover{
+     background-color: rgb(8, 94, 8);
     color: white;
     transform: scale(1.1);
     transition: 0.7s ease;
